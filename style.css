@@ -1,0 +1,127 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:darkslategray;
+    font-family:'Times New Roman', Times, serif;
+}
+header {
+    width: 1490px;
+    height: 50px;
+}
+header .left {
+    width: 735px;
+    height: 60px;
+    background-color: rgb(88, 141, 88);
+    text-align: center;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+header .right {
+    width: 735px;
+    height: 60px;
+    background-color: slategrey;
+    text-align: center;
+    font-size: 13px;
+    float: right;
+    position:relative;
+    bottom: 60px;
+}
+header .left button h2 {
+    color: white;
+    background-color: rgb(88, 141, 88);
+}
+header .left button {
+    background-color: rgb(88, 141, 88);
+    border: none;
+}
+header .right button {
+    color: white;
+    background-color: slategrey;
+    border: none;
+}
+header .text {
+    width: 300px;
+    height:20px;
+    text-align: center;
+    margin-left: 590px;
+    margin-top: 100px;
+    }
+header .text h1 {
+    color: white;
+    font-size: 30px;
+}
+main .left2 {
+    width:500px;
+    height: 50px;
+    margin-top:200px;
+    margin-left: 120px;
+    color: white;
+}
+main .left2 input {
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    border: solid white;
+    background: darkslategray;
+}
+main .right2 {
+    width:500px;
+    height:50px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    margin-right: 160px;
+}
+main .right2 input {
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    border: solid white;
+    background: darkslategray;
+}
+main .email {
+    width: 1360;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 50px;
+
+}
+main .email input {
+    width: 1275px;
+    height: 50px;
+    border: solid white;
+    background: darkslategray;
+    text-align: center;
+}
+main .password {
+    width: 1360px;
+    height: 50px;
+    margin-left: 120px ;
+    margin-top: 50px;
+}
+main .password input {
+    width: 1275px;
+    height: 50px;
+    border: solid white;
+    background: darkslategray;
+    text-align: center;
+}
+main .button {
+    width: 1360px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+main .button button {
+    width: 1285px;
+    height: 80px;
+    color: white;
+    background-color: rgb(88, 141, 88);
+    font-size: larger;
+}
+::placeholder {
+    color: white;
+    font-size: large;
+}
+
